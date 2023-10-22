@@ -1,0 +1,249 @@
+html, body {
+  margin: 0;
+}
+
+body {
+  background: #bbb;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+  margin: 80px auto;
+  position: relative;
+}
+
+.ticket-create-button {
+  font-size: 30px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 15px 30px;
+  margin: 0 0 0 auto;
+  cursor: pointer;
+  width: 300px;
+}
+
+.tickets {
+margin-top: 50px;
+padding: 0;
+box-sizing: border-box;
+height: 1000px;
+position: relative;
+}
+
+.ticket {
+  background-color: #fff;
+  border: 1px solid black;
+  list-style: none;
+  box-sizing: border-box;
+  margin: auto;
+  display: block;
+  min-height: 72px;
+  margin-bottom: -1px;
+  justify-content: center;
+}
+
+.ticket-status-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid black;
+  cursor: pointer;
+  position: absolute;
+  left: 30px;
+  margin: 20px auto;
+}
+
+.status-true {
+  background-image: url(../img/check-mark.png);
+  background-size: cover;
+}
+
+.ticket-name {
+  justify-content: center;
+  width: 600px;
+  position: absolute;
+  left: 80px;
+
+  margin: 26px auto;
+}
+
+.ticket-create-data {
+  width: 200px;
+  position: absolute;
+  left: 680px;
+  margin: 26px auto;
+}
+
+.ticket-change-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid black;
+  cursor: pointer;
+  position: absolute;
+  right: 80px;
+  background-image: url(../img/edit-pencil-icon.png);
+  background-size: cover;
+  margin: 20px auto;
+}
+
+.ticket-delete-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid black;
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+  margin: 20px auto;
+}
+
+.ticket-description {
+  justify-content: center;
+  width: 600px;
+  position: absolute;
+  left: 80px;
+  margin: 57px auto;
+}
+
+.ticket-description-response {
+  justify-content: center;
+  width: 600px;
+  position: absolute;
+  left: 80px;
+  margin: 57px auto;
+}
+
+.description-on {
+  height: 170px;
+}
+
+.hidden {
+  display: none;
+}
+
+.add-ticket {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 180px auto;
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 20px 20px;
+}
+
+.add-ticket-header {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+}
+
+.add-ticket-short-description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.add-ticket-short-description-textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 40px;
+  margin-top: 10px;
+  resize: none;
+}
+
+.add-ticket-detailed-description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.add-ticket-detailed-description-textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 80px;
+  margin-top: 10px;
+  resize: none;
+}
+
+.add-ticket-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.add-ticket-cancel-button {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px 10px;
+  cursor: pointer;
+  width: 100px;
+  font-size: 16px;
+}
+
+.add-ticket-submit-button {
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px 10px;
+  margin-left: 30px;
+  cursor: pointer;
+  width: 60px;
+  font-size: 16px;
+}
+
+.change-ticket {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 180px auto;
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 20px 20px;
+}
+
+.delete-ticket {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 180px auto;
+  width: 500px;
+  height: 170px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 20px 20px;
+}
+
+.delete-ticket-short-description {
+  margin-top: 30px;
+}
+
+.delete-ticket-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+}

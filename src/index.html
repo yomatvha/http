@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>http</title>
+</head>
+
+<body>
+    <div class="container">
+        <button class="ticket-create-button">Добавить тикет</button>
+        <ul class ="tickets">
+        </ul>
+    </div>
+    <form class="add-ticket hidden">
+        <header class="add-ticket-header">Добавить тикет</header>
+        <div class="add-ticket-short-description">
+            <label>
+                <span class="add-ticket-short-description-header">Краткое описание</span>
+                <textarea class="add-ticket-short-description-textarea" data-name="add-name" id=""></textarea>
+            </label>
+        </div>
+        <div class="add-ticket-detailed-description">
+            <label>
+                <span class="add-ticket-detailed-description-header">Подробное описание</span>
+                <textarea class="add-ticket-detailed-description-textarea" data-name="add-description" id=""></textarea>
+            </label>
+        </div>
+        <div class="add-ticket-buttons">
+            <button class="add-ticket-cancel-button" type="reset">Отмена</button>
+            <button class="add-ticket-submit-button" type="submit">Ok</button>
+        </div>
+    </form>
+    <div class="change-ticket hidden">
+        <header class="add-ticket-header">Изменить тикет</header>
+        <div class="add-ticket-short-description">
+            <label>
+                <span class="add-ticket-short-description-header">Краткое описание</span>
+                <textarea class="add-ticket-short-description-textarea" data-name="change-name" id=""></textarea>
+            </label>
+        </div>
+        <div class="add-ticket-detailed-description">
+            <label>
+                <span class="add-ticket-detailed-description-header">Подробное описание</span>
+                <textarea class="add-ticket-detailed-description-textarea" data-name="change-description" id=""></textarea>
+            </label>
+        </div>
+        <div class="add-ticket-buttons">
+            <button class="add-ticket-cancel-button">Отмена</button>
+            <button class="add-ticket-submit-button" type="submit">Ok</button>
+        </div>
+    </div>
+    <div class="delete-ticket hidden">
+        <header class="add-ticket-header">Удалить тикет</header>
+        <div class="delete-ticket-short-description">
+            Вы уверены, что хотите удалить тикет? Это действие необратимо.
+        </div>
+        <div class="delete-ticket-buttons">
+            <button class="add-ticket-cancel-button">Отмена</button>
+            <button class="add-ticket-submit-button">Ok</button>
+        </div>
+    </div>
+</body>
+
+</html>
